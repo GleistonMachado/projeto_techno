@@ -60,7 +60,12 @@ const vm = new Vue({
       this.produto.estoque--;
       const {id, nome, preco} = this.produto;
       this.carrinho.push({id, nome, preco});
-      this.alerta(`${nome} adicionado ao carrinho.`)
+      this.alerta(`${nome} adicionado ao carrinho.`);
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
     },
     removerItem(index) {
       this.carrinho.splice(index, 1);
