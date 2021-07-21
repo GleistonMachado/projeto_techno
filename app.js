@@ -89,7 +89,7 @@ const vm = new Vue({
       }, 1500);
     },
     router() {
-      const hash =document.location.hash;
+      const hash = document.location.hash;
       if(hash) {
         this.fetchProduto(hash.replace("#", ""));
       }
