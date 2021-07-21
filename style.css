@@ -234,7 +234,7 @@ body {
 .alerta_mensagem {
   background: white;
   display: inline-block;
-  padding: 20px 40px;
+  padding: 12px 40px;
   border: 2px solid black;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
